@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Hello world!
  */
-public class Client {
+/*public class Client {
     private final SynthesizerGrpc.SynthesizerStub stub;
 
     public Client(String host, int port, String apiKey) {
@@ -121,4 +121,4 @@ public class Client {
         client.synthesize(text, new File("result.wav"));
         System.out.println("end");
     }
-}
+}*/
