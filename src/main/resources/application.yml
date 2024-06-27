@@ -1,0 +1,8 @@
+telegram:
+  bot-token: ${telegram.bot-token}
+
+yandex:
+  api-key: ${yandex.api-key}
+  tts:
+    host: ${yandex.tts.host}
+    port: ${yandex.tts.port}
