@@ -41,6 +41,7 @@ public class Bot extends TelegramLongPollingBot {
         }
         String[] message = update.getMessage().getText().split(" ", 2);
         Long chatId = update.getMessage().getChatId();
+        System.out.println(message[1]);
         switch (message[0]){
             case START -> {
                  sendMessage(chatId,text);

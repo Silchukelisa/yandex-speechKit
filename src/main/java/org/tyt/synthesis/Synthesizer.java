@@ -102,6 +102,7 @@ public class Synthesizer {
         public void onCompleted() {
             System.out.println("Tts stream completed");
             count.countDown();
+            count = new CountDownLatch(1);
         }
 
         byte[] awaitResult(int timeoutSeconds) {
