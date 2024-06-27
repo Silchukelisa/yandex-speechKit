@@ -1,3 +1,8 @@
 telegram:
-  bot-token: 7233864982:AAFBD1AaHVhG1daflJOvibljgR7fLjeArpE
+  bot-token: ${telegram.bot-token}
 
+yandex:
+  api-key: ${yandex.api-key}
+  tts:
+    host: ${yandex.tts.host}
+    port: ${yandex.tts.port}
